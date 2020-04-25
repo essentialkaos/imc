@@ -13,6 +13,7 @@ import (
 	"time"
 
 	"pkg.re/essentialkaos/ek.v11/fmtutil"
+	"pkg.re/essentialkaos/ek.v11/options"
 	"pkg.re/essentialkaos/ek.v11/sortutil"
 	"pkg.re/essentialkaos/ek.v11/timeutil"
 
@@ -70,7 +71,8 @@ func renderGUI() error {
 	gui = NewGUI()
 
 	uiEvents := ui.PollEvents()
-	ticker := time.NewTicker(10 * time.Second).C
+	interval := time.Duration(options.GetI(OPT_INTERVAL)) * time.Second
+	ticker := time.NewTicker(interval).C
 
 	fetchStats()
 	gui.Render()
