@@ -34,11 +34,12 @@ type GUI struct {
 	tw int
 	th int
 
-	sourceCount  int
-	listenerPeak int
+	sourceCount int
 
 	lastError error
 }
+
+// ////////////////////////////////////////////////////////////////////////////////// //
 
 var (
 	greyStyle  = ui.Style{8, -1, ui.ModifierClear}
@@ -75,6 +76,7 @@ func renderGUI() error {
 	ticker := time.NewTicker(interval).C
 
 	fetchStats()
+
 	gui.Render()
 
 	for {
@@ -95,10 +97,9 @@ func renderGUI() error {
 			gui.Render()
 		}
 	}
-
-	return nil
 }
 
+// fetchStats fetches stats data from Icecast server
 func fetchStats() {
 	newStats, err := icecast.GetStats()
 
@@ -109,7 +110,8 @@ func fetchStats() {
 	gui.lastError = err
 }
 
-func formatServerStats() []string {
+// getServerStats returns data for server table
+func getServerStats() []string {
 	var result []string
 
 	result = append(result, stats.Info.ID)
@@ -125,7 +127,8 @@ func formatServerStats() []string {
 	return result
 }
 
-func formatStreamsStats() [][]string {
+// getStreamsStats returns data for streams table
+func getStreamsStats() [][]string {
 	var result [][]string
 
 	result = append(result, streamsHeader)
@@ -151,7 +154,8 @@ func formatStreamsStats() [][]string {
 	return result
 }
 
-func formatSourcesStats() [][]string {
+// getSourcesStats returns data for sources table
+func getSourcesStats() [][]string {
 	var result [][]string
 
 	result = append(result, sourcesHeader)
@@ -180,6 +184,7 @@ func formatSourcesStats() [][]string {
 	return result
 }
 
+// getSources returns slice with sources names sorted by name
 func getSources(s *ic.Stats) []string {
 	var result []string
 
@@ -192,6 +197,7 @@ func getSources(s *ic.Stats) []string {
 	return result
 }
 
+// formatDuration formats duration
 func formatDuration(d time.Duration) string {
 	dur := int(d.Seconds())
 
@@ -213,6 +219,7 @@ func formatDuration(d time.Duration) string {
 	return fmt.Sprintf("%d:%02d:%02d", hours, minutes, seconds)
 }
 
+// countListenerPeak counts listeners peak from all sources
 func countListenerPeak(stats *ic.Stats) int {
 	var result int
 
@@ -223,6 +230,7 @@ func countListenerPeak(stats *ic.Stats) int {
 	return result
 }
 
+// formatRowData adds space at the beginning of every row
 func formatRowData(data []string) []string {
 	for i, v := range data {
 		data[i] = " " + v
@@ -233,6 +241,7 @@ func formatRowData(data []string) []string {
 
 // ////////////////////////////////////////////////////////////////////////////////// //
 
+// NewGUI initialize new GUI struct
 func NewGUI() *GUI {
 	g := &GUI{}
 
@@ -262,6 +271,7 @@ func NewGUI() *GUI {
 	return g
 }
 
+// Render renders GUI elements
 func (g *GUI) Render() {
 	g.Update()
 
@@ -282,6 +292,7 @@ func (g *GUI) Render() {
 	}
 }
 
+// Update updates data in all GUI elements
 func (g *GUI) Update() {
 	g.tw, g.th = ui.TerminalDimensions()
 
@@ -294,6 +305,7 @@ func (g *GUI) Update() {
 	}
 }
 
+// createTable creates new table with default style
 func (g *GUI) createTable(title string) *widgets.Table {
 	t := widgets.NewTable()
 	t.BorderStyle = greyStyle
@@ -306,24 +318,28 @@ func (g *GUI) createTable(title string) *widgets.Table {
 	return t
 }
 
+// updateServerInfo updates server table data and size
 func (g *GUI) updateServerInfo() {
 	g.serverInfo.SetRect(0, 3, g.tw, 8)
-	g.serverInfo.Rows[1] = formatRowData(formatServerStats())
+	g.serverInfo.Rows[1] = formatRowData(getServerStats())
 }
 
+// updateStreamsInfo updates streams table data and size
 func (g *GUI) updateStreamsInfo() {
 	y := 9 + (stats.Stats.Sources * 2) + 3
 	g.streamsInfo.SetRect(0, 9, g.tw, y)
-	g.streamsInfo.Rows = formatStreamsStats()
+	g.streamsInfo.Rows = getStreamsStats()
 }
 
+// updateSourcesInfo updates sources table data and size
 func (g *GUI) updateSourcesInfo() {
 	y1 := 10 + (stats.Stats.Sources * 2) + 3
 	y2 := y1 + (stats.Stats.Sources * 2) + 3
 	g.sourcesInfo.SetRect(0, y1, g.tw, y2)
-	g.sourcesInfo.Rows = formatSourcesStats()
+	g.sourcesInfo.Rows = getSourcesStats()
 }
 
+// updateBanner updates banner text and style
 func (g *GUI) updateBanner() {
 	var text string
 
