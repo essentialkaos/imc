@@ -12,15 +12,15 @@ import (
 	"strings"
 	"time"
 
-	"pkg.re/essentialkaos/ek.v11/fmtutil"
-	"pkg.re/essentialkaos/ek.v11/options"
-	"pkg.re/essentialkaos/ek.v11/sortutil"
-	"pkg.re/essentialkaos/ek.v11/timeutil"
+	"pkg.re/essentialkaos/ek.v12/fmtutil"
+	"pkg.re/essentialkaos/ek.v12/options"
+	"pkg.re/essentialkaos/ek.v12/sortutil"
+	"pkg.re/essentialkaos/ek.v12/timeutil"
 
 	ui "github.com/gizak/termui/v3"
 	"github.com/gizak/termui/v3/widgets"
 
-	ic "pkg.re/essentialkaos/go-icecast.v1"
+	ic "pkg.re/essentialkaos/go-icecast.v2"
 )
 
 // ////////////////////////////////////////////////////////////////////////////////// //

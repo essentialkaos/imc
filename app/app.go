@@ -12,16 +12,16 @@ import (
 	"os"
 	"strings"
 
-	"pkg.re/essentialkaos/ek.v11/fmtc"
-	"pkg.re/essentialkaos/ek.v11/fmtutil"
-	"pkg.re/essentialkaos/ek.v11/options"
-	"pkg.re/essentialkaos/ek.v11/usage"
-	"pkg.re/essentialkaos/ek.v11/usage/completion/bash"
-	"pkg.re/essentialkaos/ek.v11/usage/completion/fish"
-	"pkg.re/essentialkaos/ek.v11/usage/completion/zsh"
-	"pkg.re/essentialkaos/ek.v11/usage/update"
+	"pkg.re/essentialkaos/ek.v12/fmtc"
+	"pkg.re/essentialkaos/ek.v12/fmtutil"
+	"pkg.re/essentialkaos/ek.v12/options"
+	"pkg.re/essentialkaos/ek.v12/usage"
+	"pkg.re/essentialkaos/ek.v12/usage/completion/bash"
+	"pkg.re/essentialkaos/ek.v12/usage/completion/fish"
+	"pkg.re/essentialkaos/ek.v12/usage/completion/zsh"
+	"pkg.re/essentialkaos/ek.v12/usage/update"
 
-	ic "pkg.re/essentialkaos/go-icecast.v1"
+	ic "pkg.re/essentialkaos/go-icecast.v2"
 )
 
 // ////////////////////////////////////////////////////////////////////////////////// //
@@ -29,7 +29,7 @@ import (
 const (
 	APP  = "imc"
 	DESC = "Icecast Mission Control"
-	VER  = "1.0.0"
+	VER  = "1.1.0"
 )
 
 const (
