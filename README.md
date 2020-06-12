@@ -1,13 +1,15 @@
 <p align="center"><a href="#readme"><img src="https://gh.kaos.st/imc.svg"/></a></p>
 
-<p align="center"><a href="#screenshots">Screenshots</a> • <a href="#installation">Installation</a> • <a href="#usage">Usage</a> • <a href="#build-status">Build Status</a> • <a href="#contributing">Contributing</a> • <a href="#license">License</a></p>
-
 <p align="center">
   <a href="https://travis-ci.com/essentialkaos/imc"><img src="https://travis-ci.com/essentialkaos/imc.svg?branch=master" alt="TravisCI" /></a>
   <a href="https://goreportcard.com/report/github.com/essentialkaos/imc"><img src="https://goreportcard.com/badge/github.com/essentialkaos/imc" alt="GoReportCard" /></a>
   <a href="https://codebeat.co/projects/github-com-essentialkaos-imc-master"><img alt="codebeat badge" src="https://codebeat.co/badges/9e4d9881-0c5f-42e1-a775-a3f2de9550df" /></a>
   <a href="https://essentialkaos.com/ekol"><img src="https://gh.kaos.st/ekol.svg" alt="License" /></a>
 </p>
+
+<p align="center"><a href="#screenshots">Screenshots</a> • <a href="#installation">Installation</a> • <a href="#usage">Usage</a> • <a href="#build-status">Build Status</a> • <a href="#contributing">Contributing</a> • <a href="#license">License</a></p>
+
+<br/>
 
 `imc` (_Icecast Mission Control_) is a simple terminal dashboard for Icecast.
 
