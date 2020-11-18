@@ -1,7 +1,7 @@
 <p align="center"><a href="#readme"><img src="https://gh.kaos.st/imc.svg"/></a></p>
 
 <p align="center">
-  <a href="https://travis-ci.com/essentialkaos/imc"><img src="https://travis-ci.com/essentialkaos/imc.svg?branch=master" alt="TravisCI" /></a>
+  <a href="https://github.com/essentialkaos/imc/actions"><img src="https://github.com/essentialkaos/imc/workflows/CI/badge.svg" alt="GitHub Actions Status" /></a>
   <a href="https://github.com/essentialkaos/imc/actions?query=workflow%3ACodeQL"><img src="https://github.com/essentialkaos/imc/workflows/CodeQL/badge.svg" /></a>
   <a href="https://goreportcard.com/report/github.com/essentialkaos/imc"><img src="https://goreportcard.com/badge/github.com/essentialkaos/imc" alt="GoReportCard" /></a>
   <a href="https://codebeat.co/projects/github-com-essentialkaos-imc-master"><img alt="codebeat badge" src="https://codebeat.co/badges/9e4d9881-0c5f-42e1-a775-a3f2de9550df" /></a>
@@ -24,13 +24,7 @@
 
 #### From source
 
-Before the initial install, allow git to use redirects for [pkg.re](https://github.com/essentialkaos/pkgre) service (_reason why you should do this described [here](https://github.com/essentialkaos/pkgre#git-support)_):
-
-```
-git config --global http.https://pkg.re.followRedirects true
-```
-
-To build the `imc` from scratch, make sure you have a working Go 1.13+ workspace (_[instructions](https://golang.org/doc/install)_), then:
+To build the `imc` from scratch, make sure you have a working Go 1.14+ workspace (_[instructions](https://golang.org/doc/install)_), then:
 
 ```
 go get github.com/essentialkaos/imc
@@ -75,8 +69,8 @@ Examples
 
 | Branch | Status |
 |--------|--------|
-| `master` | [![Build Status](https://travis-ci.com/essentialkaos/imc.svg?branch=master)](https://travis-ci.com/essentialkaos/imc) |
-| `develop` | [![Build Status](https://travis-ci.com/essentialkaos/imc.svg?branch=develop)](https://travis-ci.com/essentialkaos/imc) |
+| `master` | [![CI](https://github.com/essentialkaos/imc/workflows/CI/badge.svg?branch=master)](https://github.com/essentialkaos/imc/actions) |
+| `develop` | [![CI](https://github.com/essentialkaos/imc/workflows/CI/badge.svg?branch=develop)](https://github.com/essentialkaos/imc/actions) |
 
 ### Contributing
 
