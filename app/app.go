@@ -29,7 +29,7 @@ import (
 const (
 	APP  = "imc"
 	DESC = "Icecast Mission Control"
-	VER  = "1.1.0"
+	VER  = "1.2.0"
 )
 
 const (

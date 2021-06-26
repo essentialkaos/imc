@@ -17,8 +17,8 @@ import (
 	"pkg.re/essentialkaos/ek.v12/sortutil"
 	"pkg.re/essentialkaos/ek.v12/timeutil"
 
-	ui "github.com/gizak/termui/v3"
-	"github.com/gizak/termui/v3/widgets"
+	ui "github.com/gizak/termui"
+	"github.com/gizak/termui/widgets"
 
 	ic "pkg.re/essentialkaos/go-icecast.v2"
 )
