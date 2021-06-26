@@ -1,10 +1,10 @@
 <p align="center"><a href="#readme"><img src="https://gh.kaos.st/imc.svg"/></a></p>
 
 <p align="center">
-  <a href="https://github.com/essentialkaos/imc/actions"><img src="https://github.com/essentialkaos/imc/workflows/CI/badge.svg" alt="GitHub Actions Status" /></a>
-  <a href="https://github.com/essentialkaos/imc/actions?query=workflow%3ACodeQL"><img src="https://github.com/essentialkaos/imc/workflows/CodeQL/badge.svg" /></a>
-  <a href="https://goreportcard.com/report/github.com/essentialkaos/imc"><img src="https://goreportcard.com/badge/github.com/essentialkaos/imc" alt="GoReportCard" /></a>
-  <a href="https://codebeat.co/projects/github-com-essentialkaos-imc-master"><img alt="codebeat badge" src="https://codebeat.co/badges/9e4d9881-0c5f-42e1-a775-a3f2de9550df" /></a>
+  <a href="https://kaos.sh/w/imc/ci"><img src="https://kaos.sh/w/imc/ci.svg" alt="GitHub Actions CI Status" /></a>
+  <a href="https://kaos.sh/w/imc/codeql"><img src="https://kaos.sh/w/imc/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
+  <a href="https://kaos.sh/r/imc"><img src="https://kaos.sh/r/imc.svg" alt="GoReportCard" /></a>
+  <a href="https://kaos.sh/b/imc"><img src="https://kaos.sh/b/9e4d9881-0c5f-42e1-a775-a3f2de9550df.svg" alt="Codebeat badge" /></a>
   <a href="#license"><img src="https://gh.kaos.st/apache2.svg"></a>
 </p>
 
@@ -24,16 +24,16 @@
 
 #### From source
 
-To build the `imc` from scratch, make sure you have a working Go 1.14+ workspace (_[instructions](https://golang.org/doc/install)_), then:
+To build the `imc` from scratch, make sure you have a working Go 1.15+ workspace (_[instructions](https://golang.org/doc/install)_), then:
 
 ```
-go get github.com/essentialkaos/imc
+go get -d github.com/essentialkaos/imc
 ```
 
 If you want to update `imc` to latest stable release, do:
 
 ```
-go get -u github.com/essentialkaos/imc
+go get -d -u github.com/essentialkaos/imc
 ```
 
 #### Prebuilt binaries
@@ -69,8 +69,8 @@ Examples
 
 | Branch | Status |
 |--------|--------|
-| `master` | [![CI](https://github.com/essentialkaos/imc/workflows/CI/badge.svg?branch=master)](https://github.com/essentialkaos/imc/actions) |
-| `develop` | [![CI](https://github.com/essentialkaos/imc/workflows/CI/badge.svg?branch=develop)](https://github.com/essentialkaos/imc/actions) |
+| `master` | [![CI](https://kaos.sh/w/imc/ci.svg?branch=master)](https://kaos.sh/w/imc/ci?query=branch:master) |
+| `develop` | [![CI](https://kaos.sh/w/imc/ci.svg?branch=develop)](https://kaos.sh/w/imc/ci?query=branch:develop) |
 
 ### Contributing
 
