@@ -27,13 +27,7 @@
 To build the `imc` from scratch, make sure you have a working Go 1.15+ workspace (_[instructions](https://golang.org/doc/install)_), then:
 
 ```
-go get -d github.com/essentialkaos/imc
-```
-
-If you want to update `imc` to latest stable release, do:
-
-```
-go get -d -u github.com/essentialkaos/imc
+go install github.com/essentialkaos/imc
 ```
 
 #### Prebuilt binaries
