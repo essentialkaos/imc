@@ -2,7 +2,7 @@ package app
 
 // ////////////////////////////////////////////////////////////////////////////////// //
 //                                                                                    //
-//                         Copyright (c) 2021 ESSENTIAL KAOS                          //
+//                         Copyright (c) 2022 ESSENTIAL KAOS                          //
 //      Apache License, Version 2.0 <https://www.apache.org/licenses/LICENSE-2.0>     //
 //                                                                                    //
 // ////////////////////////////////////////////////////////////////////////////////// //
@@ -12,16 +12,16 @@ import (
 	"os"
 	"strings"
 
-	"pkg.re/essentialkaos/ek.v12/fmtc"
-	"pkg.re/essentialkaos/ek.v12/fmtutil"
-	"pkg.re/essentialkaos/ek.v12/options"
-	"pkg.re/essentialkaos/ek.v12/usage"
-	"pkg.re/essentialkaos/ek.v12/usage/completion/bash"
-	"pkg.re/essentialkaos/ek.v12/usage/completion/fish"
-	"pkg.re/essentialkaos/ek.v12/usage/completion/zsh"
-	"pkg.re/essentialkaos/ek.v12/usage/update"
+	"github.com/essentialkaos/ek/v12/fmtc"
+	"github.com/essentialkaos/ek/v12/fmtutil"
+	"github.com/essentialkaos/ek/v12/options"
+	"github.com/essentialkaos/ek/v12/usage"
+	"github.com/essentialkaos/ek/v12/usage/completion/bash"
+	"github.com/essentialkaos/ek/v12/usage/completion/fish"
+	"github.com/essentialkaos/ek/v12/usage/completion/zsh"
+	"github.com/essentialkaos/ek/v12/usage/update"
 
-	ic "pkg.re/essentialkaos/go-icecast.v2"
+	ic "github.com/essentialkaos/go-icecast/v2"
 )
 
 // ////////////////////////////////////////////////////////////////////////////////// //
@@ -29,7 +29,7 @@ import (
 const (
 	APP  = "imc"
 	DESC = "Icecast Mission Control"
-	VER  = "1.2.0"
+	VER  = "1.2.1"
 )
 
 const (
