@@ -5,8 +5,8 @@ github.com/essentialkaos/check v1.2.1/go.mod h1:PhxzfJWlf5L/skuyhzBLIvjMB5Xu9TIy
 github.com/essentialkaos/check v1.3.0/go.mod h1:PhxzfJWlf5L/skuyhzBLIvjMB5Xu9TIyDIsqpY5MvB8=
 github.com/essentialkaos/check v1.4.0 h1:kWdFxu9odCxUqo1NNFNJmguGrDHgwi3A8daXX1nkuKk=
 github.com/essentialkaos/check v1.4.0/go.mod h1:LMKPZ2H+9PXe7Y2gEoKyVAwUqXVgx7KtgibfsHJPus0=
-github.com/essentialkaos/ek/v12 v12.62.0 h1:A+pnMGbSz2apjEjlHU3EQ6Uqam85GTryVPhzcLfY8o4=
-github.com/essentialkaos/ek/v12 v12.62.0/go.mod h1:9MlSuHpewu7OZ9tM9dLFHvoA8dflBIUPCA0Ctt97wRs=
+github.com/essentialkaos/ek/v12 v12.63.0 h1:9yaEu5W3bx//9y52ShqYCoFDKOcwEdrnvgSkUYyatgI=
+github.com/essentialkaos/ek/v12 v12.63.0/go.mod h1:9MlSuHpewu7OZ9tM9dLFHvoA8dflBIUPCA0Ctt97wRs=
 github.com/essentialkaos/go-icecast/v2 v2.0.6 h1:QqMwPT+TNN6R5xaQKsLINubtvdDg8LvcEhpynn3TVkI=
 github.com/essentialkaos/go-icecast/v2 v2.0.6/go.mod h1:EEzBSggEHWafABzwhKCRqFrxEPf1x2OHcu863EbD4/0=
 github.com/essentialkaos/go-linenoise/v3 v3.4.0/go.mod h1:t1kNLY2bSMQCy1JXOefD2BDLs/TTPMtTv3DFNV5uDSI=
