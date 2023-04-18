@@ -1,6 +1,6 @@
 module github.com/essentialkaos/imc
 
-go 1.17
+go 1.18
 
 require (
 	github.com/essentialkaos/ek/v12 v12.64.0
