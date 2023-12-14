@@ -1,8 +1,8 @@
 github.com/andybalholm/brotli v1.0.4 h1:V7DdXeJtZscaqfNuAdSRuRFzuiKlHSC/Zh3zl9qY3JY=
 github.com/andybalholm/brotli v1.0.4/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
 github.com/essentialkaos/check v1.4.0 h1:kWdFxu9odCxUqo1NNFNJmguGrDHgwi3A8daXX1nkuKk=
-github.com/essentialkaos/ek/v12 v12.91.0 h1:xgSMRmcOz7qMlkmKdw1YCMsLhkVdUNsS64ns4ACgTjc=
-github.com/essentialkaos/ek/v12 v12.91.0/go.mod h1:9efMqo1S8EtYhmeelOSTmMQDGC2vRgPkjkKKfvUD2eU=
+github.com/essentialkaos/ek/v12 v12.92.0 h1:3JIkHWNA6MNkJOfqzMWJ8jN9sRM7nRi7URoFRVFHZzI=
+github.com/essentialkaos/ek/v12 v12.92.0/go.mod h1:9efMqo1S8EtYhmeelOSTmMQDGC2vRgPkjkKKfvUD2eU=
 github.com/essentialkaos/go-icecast/v2 v2.0.6 h1:QqMwPT+TNN6R5xaQKsLINubtvdDg8LvcEhpynn3TVkI=
 github.com/essentialkaos/go-icecast/v2 v2.0.6/go.mod h1:EEzBSggEHWafABzwhKCRqFrxEPf1x2OHcu863EbD4/0=
 github.com/gizak/termui/v3 v3.1.0 h1:ZZmVDgwHl7gR7elfKf1xc4IudXZ5qqfDh4wExk4Iajc=
