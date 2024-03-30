@@ -101,7 +101,7 @@ func renderGUI() error {
 
 // fetchStats fetches stats data from Icecast server
 func fetchStats() {
-	newStats, err := icecast.GetStats()
+	newStats, err := client.GetStats()
 
 	if err == nil {
 		stats = newStats
