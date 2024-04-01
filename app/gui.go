@@ -2,7 +2,7 @@ package app
 
 // ////////////////////////////////////////////////////////////////////////////////// //
 //                                                                                    //
-//                         Copyright (c) 2022 ESSENTIAL KAOS                          //
+//                         Copyright (c) 2023 ESSENTIAL KAOS                          //
 //      Apache License, Version 2.0 <https://www.apache.org/licenses/LICENSE-2.0>     //
 //                                                                                    //
 // ////////////////////////////////////////////////////////////////////////////////// //
@@ -101,7 +101,7 @@ func renderGUI() error {
 
 // fetchStats fetches stats data from Icecast server
 func fetchStats() {
-	newStats, err := icecast.GetStats()
+	newStats, err := client.GetStats()
 
 	if err == nil {
 		stats = newStats
@@ -207,10 +207,10 @@ func formatDuration(d time.Duration) string {
 		switch {
 		case dur > 3600:
 			hours = dur / 3600
-			dur = dur % 3600
+			dur %= 3600
 		case dur > 60:
 			minutes = dur / 60
-			dur = dur % 60
+			dur %= 60
 		default:
 			seconds = dur
 		}

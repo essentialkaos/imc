@@ -24,7 +24,7 @@
 
 #### From source
 
-To build the `imc` from scratch, make sure you have a working Go 1.16+ workspace (_[instructions](https://golang.org/doc/install)_), then:
+To build the `imc` from scratch, make sure you have a working Go 1.21+ workspace (_[instructions](https://go.dev/doc/install)_), then:
 
 ```
 go install github.com/essentialkaos/imc
@@ -49,6 +49,7 @@ Options
   --user, -U username        Admin username
   --password, -P password    Admin password
   --interval, -i seconds     Update interval in seconds (1-600)
+  --no-color, -nc            Disable colors in output
   --help, -h                 Show this help message
   --version, -v              Show version
 
@@ -56,7 +57,6 @@ Examples
 
   imc -H http://192.168.0.1:9922 -U superuser -P MySuppaPass
   Connect to Icecast on 192.168.0.1:9922 with custom user and password
-
 ```
 
 ### Build Status
