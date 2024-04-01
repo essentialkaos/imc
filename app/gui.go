@@ -207,10 +207,10 @@ func formatDuration(d time.Duration) string {
 		switch {
 		case dur > 3600:
 			hours = dur / 3600
-			dur = dur % 3600
+			dur %= 3600
 		case dur > 60:
 			minutes = dur / 60
-			dur = dur % 60
+			dur %= 60
 		default:
 			seconds = dur
 		}
