@@ -40,24 +40,7 @@ bash <(curl -fsSL https://apps.kaos.st/get) imc
 
 ### Usage
 
-```
-Usage: imc {options}
-
-Options
-
-  --host, -H host            URL of Icecast instance
-  --user, -U username        Admin username
-  --password, -P password    Admin password
-  --interval, -i seconds     Update interval in seconds (1-600)
-  --no-color, -nc            Disable colors in output
-  --help, -h                 Show this help message
-  --version, -v              Show version
-
-Examples
-
-  imc -H http://192.168.0.1:9922 -U superuser -P MySuppaPass
-  Connect to Icecast on 192.168.0.1:9922 with custom user and password
-```
+<img src=".github/images/usage.svg" />
 
 ### Build Status
 
