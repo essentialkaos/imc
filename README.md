@@ -4,7 +4,6 @@
   <a href="https://kaos.sh/w/imc/ci"><img src="https://kaos.sh/w/imc/ci.svg" alt="GitHub Actions CI Status" /></a>
   <a href="https://kaos.sh/w/imc/codeql"><img src="https://kaos.sh/w/imc/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
   <a href="https://kaos.sh/r/imc"><img src="https://kaos.sh/r/imc.svg" alt="GoReportCard" /></a>
-  <a href="https://kaos.sh/b/imc"><img src="https://kaos.sh/b/9e4d9881-0c5f-42e1-a775-a3f2de9550df.svg" alt="Codebeat badge" /></a>
   <a href="#license"><img src=".github/images/license.svg"/></a>
 </p>
 
