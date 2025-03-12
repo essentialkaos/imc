@@ -3,7 +3,7 @@ module github.com/essentialkaos/imc
 go 1.23.6
 
 require (
-	github.com/essentialkaos/ek/v13 v13.20.2
+	github.com/essentialkaos/ek/v13 v13.20.3
 	github.com/essentialkaos/go-icecast/v3 v3.0.0
 	github.com/gizak/termui/v3 v3.1.0
 )
