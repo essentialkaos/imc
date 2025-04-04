@@ -5,7 +5,7 @@ go 1.23.6
 toolchain go1.24.1
 
 require (
-	github.com/essentialkaos/ek/v13 v13.21.1
+	github.com/essentialkaos/ek/v13 v13.23.1
 	github.com/essentialkaos/go-icecast/v3 v3.0.0
 	github.com/gizak/termui/v3 v3.1.0
 )
