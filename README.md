@@ -4,7 +4,6 @@
   <a href="https://kaos.sh/w/imc/ci"><img src="https://kaos.sh/w/imc/ci.svg" alt="GitHub Actions CI Status" /></a>
   <a href="https://kaos.sh/w/imc/codeql"><img src="https://kaos.sh/w/imc/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
   <a href="https://kaos.sh/r/imc"><img src="https://kaos.sh/r/imc.svg" alt="GoReportCard" /></a>
-  <a href="https://kaos.sh/b/imc"><img src="https://kaos.sh/b/9e4d9881-0c5f-42e1-a775-a3f2de9550df.svg" alt="Codebeat badge" /></a>
   <a href="#license"><img src=".github/images/license.svg"/></a>
 </p>
 
@@ -22,10 +21,10 @@
 
 #### From source
 
-To build the `imc` from scratch, make sure you have a working Go 1.21+ workspace (_[instructions](https://go.dev/doc/install)_), then:
+To build the `imc` from scratch, make sure you have a working [Go 1.23+](https://github.com/essentialkaos/.github/blob/master/GO-VERSION-SUPPORT.md) workspace (_[instructions](https://go.dev/doc/install)_), then:
 
 ```
-go install github.com/essentialkaos/imc
+go install github.com/essentialkaos/imc@latest
 ```
 
 #### Prebuilt binaries
@@ -49,10 +48,10 @@ bash <(curl -fsSL https://apps.kaos.st/get) imc
 
 ### Contributing
 
-Before contributing to this project please read our [Contributing Guidelines](https://github.com/essentialkaos/contributing-guidelines#contributing-guidelines).
+Before contributing to this project please read our [Contributing Guidelines](https://github.com/essentialkaos/.github/blob/master/CONTRIBUTING.md).
 
 ### License
 
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-<p align="center"><a href="https://essentialkaos.com"><img src="https://gh.kaos.st/ekgh.svg"/></a></p>
+<p align="center"><a href="https://kaos.dev"><img src="https://raw.githubusercontent.com/essentialkaos/.github/refs/heads/master/images/ekgh.svg"/></a></p>
