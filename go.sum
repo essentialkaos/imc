@@ -4,8 +4,8 @@ github.com/essentialkaos/depsy v1.3.1 h1:00k9QcMsdPM4IzDaEFHsTHBD/zoM0oxtB5+dMUw
 github.com/essentialkaos/depsy v1.3.1/go.mod h1:B5+7Jhv2a2RacOAxIKU2OeJp9QfZjwIpEEPI5X7auWM=
 github.com/essentialkaos/ek/v13 v13.25.0 h1:iM3BO+Y9Zcv0SvYNTa0e5XxHH46wlzD3hksJ4XzDbAY=
 github.com/essentialkaos/ek/v13 v13.25.0/go.mod h1:uYJ9Vm/WnccKtCbamJ0ukMWQcANX55e742y8lS3gP+Y=
-github.com/essentialkaos/go-icecast/v3 v3.0.0 h1:pGjdBgFrr242xVcvqqndYXiFAg/if9Oq7cz9Tee044M=
-github.com/essentialkaos/go-icecast/v3 v3.0.0/go.mod h1:z671EXXd01V7VHmahskU7Lt7AGmTmFA1JBTXop53R/w=
+github.com/essentialkaos/go-icecast/v3 v3.0.1 h1:MOURZuu2PsAifoQAg2d+ggT9QRqPmNDCut7UxyEUHGw=
+github.com/essentialkaos/go-icecast/v3 v3.0.1/go.mod h1:af7wMaBJfZXz28G3TGiOGJJc/odFpGyYLBRuuVzsrbY=
 github.com/gizak/termui/v3 v3.1.0 h1:ZZmVDgwHl7gR7elfKf1xc4IudXZ5qqfDh4wExk4Iajc=
 github.com/gizak/termui/v3 v3.1.0/go.mod h1:bXQEBkJpzxUAKf0+xq9MSWAvWZlE7c+aidmyFlkYTrY=
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=
